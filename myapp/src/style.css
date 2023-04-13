@@ -1,0 +1,19 @@
+body{
+
+    background-color: gray;
+}
+
+h1{
+
+    color: aqua;
+}
+
+.button{
+
+    background-color: greenyellow;
+    color: black;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 4px;
+   width: 80px;
+}
