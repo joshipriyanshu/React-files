@@ -12,12 +12,12 @@ const Todos = () =>{
 
     return (
 
-        <ListGroup className="mt-2 mb-2 items">
+        <ListGroup className=" ">
             {todos.map(todo => (
                 <ListGroupItem key = {todo.id}>
                     {todo.todostring}
 
-                    <span className="float-right ml-80"
+                    <span className="Deletetodo"
                     onClick={
                        () =>{
                         dispatch
@@ -27,7 +27,7 @@ const Todos = () =>{
                        } 
 
                     }   
-                    > clear </span>
+                    > <b>Clear</b> </span>
 
                 </ListGroupItem>
             ))}
