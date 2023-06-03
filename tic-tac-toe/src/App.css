@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
-  background-color:antiquewhite
+  background-color:rgb(209, 168, 113)
   
 }
 
