@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: beige;
   
 }
 
@@ -56,13 +57,17 @@ form {
 
 span{
 
-  float: right;
+  margin-left: 70%;
+  background-color: white;
+ 
+
 }
 
-span:hover{
 
-  color: red;
-  background-color: black;
-  border-radius: 5px;
+
+.button{
+
+  margin: 20px;
+ 
 }
 

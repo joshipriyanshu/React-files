@@ -12,12 +12,17 @@ const Todos = () =>{
 
     return (
 
-        <ListGroup className=" ">
+        <ListGroup className="hero">
             {todos.map(todo => (
                 <ListGroupItem key = {todo.id}>
                     {todo.todostring}
 
-                    <span className="Deletetodo"
+                    <span 
+
+                       
+                    > 
+                    <button className="button ">Edit </button>
+                    <button   className="Deletetodo"
                     onClick={
                        () =>{
                         dispatch
@@ -26,8 +31,11 @@ const Todos = () =>{
                                           )
                        } 
 
-                    }   
-                    > <b>Clear</b> </span>
+                    }   >Clear</button> 
+                    
+                    
+                    
+                    </span>
 
                 </ListGroupItem>
             ))}

@@ -1,4 +1,4 @@
-import {ADD_TODO, REMOVE_TODO} from "./action.types"
+import {ADD_TODO, EDIT_TODO, EDIT_TODOM, REMOVE_TODO} from "./action.types"
 
 
 export default (state, action) => {
@@ -6,7 +6,8 @@ export default (state, action) => {
         case ADD_TODO:
             return[...state, action.payload];
         case REMOVE_TODO:
-            return state.filter(todo => todo.id !== action.payload);   
+            return state.filter(todo => todo.id !== action.payload);  
+      
     
         default:
             break;
