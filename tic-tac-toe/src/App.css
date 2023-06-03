@@ -1,0 +1,43 @@
+body {
+  background-color: #000000;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 35px;
+  color: #ffffff;
+  font-size: 80px;
+  color: #fff;
+  
+}
+
+
+.icons {
+
+  font-size: 40px;
+  color: #ffffff;
+  
+}
+
+.icons:hover {
+
+
+font-size: 60px;
+color: #121111;
+
+
+}
+
