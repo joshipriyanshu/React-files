@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: grey;
 }
 
 
@@ -7,6 +7,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
+  background-color:antiquewhite
+  
 }
 
 .box {
@@ -15,13 +17,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 .icon {
   font-size: 35px;
   color: #ffffff;
   font-size: 80px;
   color: #fff;
-  
+ 
 }
 
 
@@ -29,7 +32,7 @@ body {
 
   font-size: 40px;
   color: #ffffff;
-  
+ 
 }
 
 .icons:hover {

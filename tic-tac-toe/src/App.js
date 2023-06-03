@@ -120,6 +120,8 @@ setwinMessaage(`${itemArray[2] } won`)
   
   <Container className="p-5">
 
+
+
     <ToastContainer position="bottom-center"/>
 
     <Row>
@@ -171,7 +173,7 @@ setwinMessaage(`${itemArray[2] } won`)
     </Row>
 
    
-
+   <Button onClick={() => {reloadgame()}} color= "primary">  Restart the game </Button>
 
 
   </Container>
