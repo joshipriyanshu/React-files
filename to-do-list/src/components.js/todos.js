@@ -17,11 +17,18 @@ const Todos = () =>{
                 <ListGroupItem key = {todo.id}>
                     {todo.todostring}
 
-                    <span 
+                    <span > 
+                    <button className="edittodo ">
+                        
+                        
+                        Edit </button>
 
-                       
-                    > 
-                    <button className="button ">Edit </button>
+
+
+
+
+
+
                     <button   className="Deletetodo"
                     onClick={
                        () =>{
