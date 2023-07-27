@@ -22,41 +22,39 @@ const MyCard = ({details}) => {
                 </h1>
 
 
-            </CardTitle>
+  </CardTitle>
 
-            <CardText>
+    <CardText>
                 
 
                 
                 
              
                 
-                <div className="border border-primary text-center d-flex gap-2  ">
+         <div className="border border-primary text-center d-flex gap-2  ">
             
 
 
-                <span >     <FaMapMarkedAlt/>  {details.location?.city} </span>    
+            <span ><FaMapMarkedAlt/>  {details.location?.city} </span>    
               
-              <span>   {details.email}  </span>
+            <span>{details.email}  </span>
 
-                <span> <FaPhone/>
-             
-             {details.phone}</span>
+            <span> <FaPhone/> {details.phone}</span>
 
                 
-                </div>
+         </div>
 
              
 
                 
-            </CardText>
+    </CardText>
 
             
 
+ </CardBody>
 
-            </CardBody>
 
-        </Card>
+</Card>
 
 
     )
