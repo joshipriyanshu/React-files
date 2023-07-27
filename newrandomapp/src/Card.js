@@ -25,20 +25,28 @@ const MyCard = ({details}) => {
             </CardTitle>
 
             <CardText>
-                <FaMapMarkedAlt/>
-
-                {details.location?.city}
                 
-                <br/>
+
                 
-                <span> {details.email}</span>
+                
+             
+                
+                <div className="border border-primary text-center d-flex gap-2  ">
+            
 
-                <FaPhone/>
-                <div>
-                {details.phone}
 
+                <span >     <FaMapMarkedAlt/>  {details.location?.city} </span>    
+              
+              <span>   {details.email}  </span>
 
+                <span> <FaPhone/>
+             
+             {details.phone}</span>
+
+                
                 </div>
+
+             
 
                 
             </CardText>
